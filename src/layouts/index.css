@@ -12,9 +12,9 @@ a {
   text-decoration: none;
 }
 
-.Hero {
+ .Hero {
   height: 920px;
-  background: url('../images/vietcetera.jpeg');
+  background: url('/images/vietcetera.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -48,4 +48,18 @@ a {
   padding: 9px 20px;
   border: 1px solid rgba(255,255,255, 0.25);
   border-radius: 20px;
+}
+
+@media (max-width: 640px) {
+  .HeroGroup {
+    padding: 125px 24px;
+  }
+
+  .Hero h1 {
+    font-size: 48px;
+  }
+
+  .Hero p {
+    font-size: 24px;
+  }
 }
